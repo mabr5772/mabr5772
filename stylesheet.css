@@ -28,8 +28,9 @@ text-indent: 5px;
 
 p {
   color: #D39F8A;
-  font-family:"HelveticaNeue-Light";
+  font-family:"Lucida Grande";
   font-size: 25px;
+  font-style: oblique;
 }
 
 img{
