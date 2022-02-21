@@ -1,5 +1,5 @@
 body{
-  background-color: transparent
+  background-color: transparent;
 }
 h1 {
   color: #597372;
@@ -58,12 +58,8 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
   border-radius: 10px;
   font-size: 17px;
   transition-duration: 0.4s;
+  text-transform: uppercase;
 }
-  a{
-    color: #849994;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
   .button2:hover {
     background-color: #F1D7CD;
   }
