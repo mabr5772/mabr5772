@@ -1,0 +1,72 @@
+body {
+  background-color:  ;
+}
+h1 {
+  color: #597372;
+text-indent: 25px;
+  bottom: 20px;
+  font-family: "HelveticaNeue-Light";
+  font-size: 50px;
+
+   }
+h2 {
+text-indent: 5px;
+  color: #849994;
+  font-weight: 300;
+  font-family: "HelveticaNeue-Light";
+  font-size: 40px;
+}
+#myHeader {
+  padding: 10px 0;
+  text-align: center;
+}
+.aboutme {
+  margin-left: auto;
+    margin-right: auto;
+    width: 30em
+}
+
+p {
+  color: #D39F8A;
+  font-family:"HelveticaNeue-Light";
+  font-size: 15px;
+}
+
+img{
+  border-radius: 300px
+}
+
+hr {
+  border-top: 2px solid #849994;
+}
+
+.image-txt-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+a.button2 {
+  background-color: #DAD1C2; /* Green */
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 12px;
+  transition-duration: 0.4s;
+}
+  a{
+    color: #849994;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .button2:hover {
+    background-color: #F1D7CD;
+  }
+  .button2:active {
+    background-color: #B79182;
+  }
