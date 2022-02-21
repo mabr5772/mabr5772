@@ -16,7 +16,7 @@ text-indent: 5px;
   font-family: "HelveticaNeue-Light";
   font-size: 50px;
 }
-#myHeader {
+#Header {
   padding: 10px 0;
   text-align: center;
 }
@@ -48,7 +48,7 @@ hr {
 }
 
 a.button2 {
-  background-color: #DAD1C2; /* Green */
+  background-color: #DAD1C2;
 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: white;
   padding: 5px 10px;
