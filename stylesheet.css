@@ -5,7 +5,7 @@ h1 {
   color: #597372;
 text-indent: 25px;
   bottom: 20px;
-  font-family: "HelveticaNeue-Light";
+  font-family: "futura";
   font-size: 80px;
 
    }
@@ -13,7 +13,7 @@ h2 {
 text-indent: 5px;
   color: #849994;
   font-weight: 300;
-  font-family: "HelveticaNeue-Light";
+  font-family: "Futura";
   font-size: 50px;
 }
 #Header {
@@ -28,7 +28,7 @@ text-indent: 5px;
 
 p {
   color: #D39F8A;
-  font-family:"avenir";
+  font-family:"helvetica";
   font-size: 25px;
 }
 
