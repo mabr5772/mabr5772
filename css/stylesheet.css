@@ -22,6 +22,7 @@ body{
    a.button2 {
      display: none;
 
+
    }
    .dropbtn {
   background-color:#DAD1C2 ;
@@ -89,7 +90,9 @@ p {
     background-color: transparent;
   }
 
-
+.dropdown{
+  display: none;
+}
 h1 {
   color: #597372;
 text-indent: 25px;
