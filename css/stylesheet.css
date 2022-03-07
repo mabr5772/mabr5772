@@ -1,6 +1,95 @@
 body{
   background-color: transparent;
 }
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: transparent;
+  }
+  h1 {
+    color: #597372;
+    font-family: "futura";
+    font-size: 40px;
+    text-align: center;
+}
+    .image-txt-container {
+      display: block;
+      align-items: center;
+     text-align: center;
+   }
+   img{
+     border-radius: 300px
+   }
+   a.button2 {
+     display: none;
+
+   }
+   .dropbtn {
+  background-color:#DAD1C2 ;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border:white;
+  border-radius: 100px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #B79182}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+  background-color: #B79182;
+
+   }
+h2 {
+text-indent: 5px;
+  color: #849994;
+  font-weight: 300;
+  font-family: "Futura";
+  font-size: 30px;
+}
+p {
+  color: #D39F8A;
+  font-family:"avenir";
+  font-size: 15px;
+}
+
+}
+
+
+
+
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: transparent;
+  }
+
+
 h1 {
   color: #597372;
 text-indent: 25px;
@@ -43,8 +132,16 @@ hr {
 .image-txt-container {
   display: flex;
   align-items: center;
-  flex-direction: row;
 
+}
+.grid-container {
+  display: inline-flex;
+  flex-flow: row wrap;
+
+
+}
+.grid-container > div {
+  margin: 6px;
 }
 
 a.button2 {
@@ -54,7 +151,7 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: ;
   border-radius: 10px;
   font-size: 17px;
   transition-duration: 0.4s;
@@ -66,3 +163,6 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
   .button2:active {
     background-color: #B79182;
   }
+  .dropdown {
+    display: none;
+  }}
