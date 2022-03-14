@@ -54,6 +54,7 @@ text-indent: 25px;
   position: absolute;
   background-color: white;
   min-width: 160px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .dropdown-content a {
