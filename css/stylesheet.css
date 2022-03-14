@@ -2,6 +2,7 @@
 @media only screen and (max-width: 400px) {
   body {
     background-color: transparent;
+
   }
   h1 {
     color: #597372;
@@ -9,6 +10,14 @@
     font-size: 40px;
     text-align: center;
 }
+h3 {
+  color: #597372;
+text-indent: 25px;
+  bottom: 20px;
+  font-family: "futura";
+  font-size: 20px;
+
+   }
     .image-txt-container {
       display: block;
       align-items: center;
@@ -16,9 +25,11 @@
    }
    img{
      border-radius: 300px
+
    }
    a.button2 {
      display: none;
+
 
 
    }
@@ -76,7 +87,40 @@ p {
   font-family:"avenir";
   font-size: 15px;
 }
+a{
+    text-decoration: none;
+    color: #D39F8A}
+#HomePage {
+  display: grid;
+  width: 100%;
+justify-content: center;
+padding-top: 50px;
 
+}
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3,1fr);
+  gap:100px
+}
+
+#areaA {
+display: inline-block;
+font-family: "Futura";
+font-size: 10%;
+flex: auto;
+
+}
+
+#areaB {
+position: relative;
+top: 40%;
+padding-left: 30%;
+
+}
+.verticalLine {
+display:none;
+   }
 }
 
 
@@ -106,6 +150,19 @@ text-indent: 5px;
   font-family: "Futura";
   font-size: 50px;
 }
+h3 {
+  color: #597372;
+text-indent: 25px;
+  bottom: 20px;
+  font-family: "futura";
+  font-size: 30px;
+
+   }
+p {
+  color: #D39F8A;
+  font-family:"avenir";
+  font-size: 25px;
+}
 #Header {
   padding: 10px 0;
   text-align: center;
@@ -116,23 +173,30 @@ text-indent: 5px;
     width: 40em
 }
 
-p {
-  color: #D39F8A;
-  font-family:"avenir";
-  font-size: 25px;
-}
+
 
 img{
-  border-radius: 300px
-}
+  border-radius: 300px;
 
+
+}
+a{
+    text-decoration: none;
+    color: #D39F8A;
+}
 hr {
   border-top: 2px solid #849994;
 }
+dd{
+  color: black;
+}
+
 
 .image-txt-container {
   display: flex;
   align-items: center;
+  flex: auto;
+
 
 }
 .grid-container {
@@ -143,6 +207,7 @@ hr {
 }
 .grid-container > div {
   margin: 6px;
+
 }
 
 a.button2 {
@@ -152,8 +217,7 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
-  display: ;
-  border-radius: 10px;
+
   font-size: 17px;
   transition-duration: 0.4s;
   text-transform: uppercase;
@@ -166,4 +230,77 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
   }
   .dropdown {
     display: none;
-  }}
+  }
+  #grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+
+  }
+
+  #areaA {
+  display: inline-block;
+font-family: "Futura";
+font-size: 10%;
+
+  }
+
+  #areaB {
+position: relative;
+top: 40%;
+padding-left: 30%;
+  }
+  #HomePage {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-flow: row;
+justify-content: center;
+padding-top: 100px;
+
+  }
+
+  #areaB {
+  font-family: "Futura";
+
+
+
+  }
+
+  #areaC {
+  position: relative;
+  padding-top: 5%;
+
+
+
+  }
+  #contact {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-flow: wrap;
+justify-content: center;
+padding-top: 100px;
+
+  }
+
+  #areaE {
+  padding-right: 50px;
+
+
+  }
+
+  #areaF {
+  position: relative;
+  padding-top: 5%;
+  padding-left: 40px;
+}
+
+
+
+  .verticalLine {
+       border-left: 3px solid #DAD1C2;
+       height: 300px;
+     }}
