@@ -242,8 +242,8 @@ padding-top: 100px;
   }
 
   #areaC {
-display: inline-block;
   font-family: "Futura";
+  position: relative;
 
 
 
