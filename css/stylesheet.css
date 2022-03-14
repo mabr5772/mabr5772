@@ -95,27 +95,15 @@ justify-content: center;
 padding-top: 50px;
 
 }
-.grid {
-  display: grid;
+#grid {
+  display: flex;
+  flex-direction: column-reverse;
   width: 100%;
-  grid-template-columns: repeat(3,1fr);
-  gap:100px
-}
-
-#areaA {
-display: inline-block;
-font-family: "Futura";
-font-size: 10%;
-flex: auto;
 
 }
 
-#areaB {
-position: relative;
-top: 40%;
-padding-left: 30%;
 
-}
+
 .verticalLine {
 display:none;
    }
@@ -253,14 +241,15 @@ padding-top: 100px;
 
   }
 
-  #areaB {
+  #areaC {
+display: inline-block;
   font-family: "Futura";
 
 
 
   }
 
-  #areaC {
+  #areaD {
   position: relative;
   padding-top: 5%;
 
