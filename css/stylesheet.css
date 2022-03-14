@@ -17,11 +17,7 @@ text-indent: 25px;
   font-family: "futura";
   font-size: 20px;
 
-   }
-    .image-txt-container {
-      display: block;
-      align-items: center;
-     text-align: center;
+
    }
    img{
      border-radius: 300px
@@ -92,7 +88,8 @@ a{
     text-decoration: none;
     color: #D39F8A}
 #HomePage {
-  display: grid;
+  display: flex;
+  flex-flow: wrap-reverse;
   width: 100%;
 justify-content: center;
 padding-top: 50px;
@@ -190,13 +187,7 @@ hr {
 }
 dd{
   color: black;
-}
 
-
-.image-txt-container {
-  display: flex;
-  align-items: center;
-  flex: auto;
 
 
 }
