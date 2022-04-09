@@ -3,9 +3,8 @@ newQuoteButton.addEventListener('click', getQuote);
 const endpoint = 'https://catfact.ninja/fact';
 
 async function getQuote(){
-  console.log("quote button was clicked")
   try {
-    const response = await fetch(endpoint);
+    const response = await fetch(endpoint)
     if (!response.ok){
       throw Error(response.stausText)
     }
