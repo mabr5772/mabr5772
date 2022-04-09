@@ -8,7 +8,7 @@ async function getQuote(){
       throw Error(response.stausText)
     }
     const json = await response.json();
-    console.log(json;
+    console.log(json);
     displayQuote(json.fact);
   } catch (err){
     console.log(err)
