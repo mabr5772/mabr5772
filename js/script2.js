@@ -21,4 +21,6 @@ function displayQuote(quote){
   quoteText.textContent = quote;
 }
 
+const quoteButton document.querySelector('#js-new-quote');
+quoteButton.addEventListner('click', getQuote);
 const endpoint = 'https://catfact.ninja/fact';
