@@ -1,5 +1,5 @@
 const QuoteButton = document.querySelector('#js-new-quote');
-newQuoteButton.addEventListener('click', getQuote);
+QuoteButton.addEventListener('click', getQuote);
 const endpoint = 'https://catfact.ninja/fact';
 
 async function getQuote(){
