@@ -1,5 +1,4 @@
-const quoteButton document.querySelector('#js-new-quote');
-quoteButton.addEventListner('click', getQuote);
+
 
 async function getQuote(){
   console.log("quote button was clicked")
