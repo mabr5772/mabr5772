@@ -9,9 +9,8 @@ html {
   padding: 0;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
-Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  background-color: #4287f5;
+  font-family: Arial Rounded MT Bold;
+  background-color: #2B2E40;
 }
 .app {
   position: absolute;
@@ -19,17 +18,21 @@ Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 600px;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px
-0 rgba(0,0,0,.12);
+  background-color: #F2CFBB;
+  border-radius: 150px;
+  border-color: #F27507;
+  border-width: 40px;
+  border-style:double;
+
 }
 header {
   width: 100%;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   padding: 10px;
-  border-bottom: 1px solid #ebebeb;
+  color: #F27507;
+  padding-top: 30px;
+
 }
 .quotes {
   padding: 20px 50px;
@@ -38,31 +41,32 @@ header {
 .quote-text {
   padding-bottom: 20px;
   font-size: 25px;
-  color: black;
+  color: white;
 }
 .controls {
   width: 100%;
-  padding: 20px 50px;
+  padding: 20px 120px;
+
 }
 .button {
   display: block;
-  color: white;
-  border-radius: 4px;
+  color: #FFF6EE;
+  font-family: Arial narrow;
+  border-radius: 10px;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
   text-align: center;
   width: 100%;
-  font-size: 20px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px
-0 rgba(0,0,0,.12);
+  font-size: 25px;
+
 }
 .new-quote {
-  background-color: #4A2B0F;
+  background-color: #F27507;
   margin-bottom: 15px;
 }
 .new-quote:hover {
-  background-color: #6d3b0e;
+  background-color: #F2B705;
 }
 .new-quote:disabled {
   background-color: #cccccc;

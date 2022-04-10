@@ -1,7 +1,6 @@
-const newQuoteButton = document.querySelector('#js-new-quote');
-newQuoteButton.addEventListener('click', getQuote);
 
-const endpoint = "https://api.quotable.io/random";
+
+
 async function getQuote() {
   try {
     const response = await fetch(endpoint)
@@ -9,13 +8,16 @@ async function getQuote() {
       throw Error(response.statusText)
     }
     const json = await response.json();
-    displayQuote(json.message);
+    displayQuote(json.text);
   } catch (err) {
     console.log(err)
     alert('Failed to get quote');
   }
 }
+const endpoint = "https://type.fit/api/quotes";
 
+const newQuoteButton = document.querySelector('#js-new-quote');
+newQuoteButton.addEventListener('click', getQuote);
 
 function displayQuote(quote) {
   const quoteText = document.querySelector('#js-quote-text');
