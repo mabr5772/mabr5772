@@ -1,21 +1,23 @@
-const QuoteButton = document.querySelector('#js-new-quote');
-QuoteButton.addEventListener('click', getQuote);
-const endpoint = 'https://catfact.ninja/fact';
+const newQuoteButton = document.querySelector('#js-new-quote');
+newQuoteButton.addEventListener('click', getQuote);
 
-async function getQuote(){
+const endpoint = "https://api.quotable.io/random";
+async function getQuote() {
   try {
     const response = await fetch(endpoint)
-    if (!response.ok){
-      throw Error(response.stausText)
+    if (!response.ok) {
+      throw Error(response.statusText)
     }
     const json = await response.json();
     displayQuote(json.message);
-  } catch (err){
+  } catch (err) {
     console.log(err)
-    alert('Failed');
+    alert('Failed to get quote');
   }
 }
-function displayQuote(quote){
+
+
+function displayQuote(quote) {
   const quoteText = document.querySelector('#js-quote-text');
   quoteText.textContent = quote;
 }
