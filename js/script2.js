@@ -28,6 +28,6 @@ function displayQuote(quote) {
 }
 
 function setTweetButton(quote) {
-  twitterButton.setAttribute('href', `https://twitter.com/share?text=${quote} - Donald Trump`);
+  twitterButton.setAttribute('href', `https://twitter.com/share?text=${quote}`);
 }
 getQuote();
