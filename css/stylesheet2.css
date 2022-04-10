@@ -37,11 +37,12 @@ header {
 .quotes {
   padding: 20px 50px;
   min-height: 200px;
+  align-items: center;
 }
 .quote-text {
   padding-bottom: 20px;
-  font-size: 25px;
-  color: white;
+  font-size: 30px;
+  color: #F27507;
 }
 .controls {
   width: 100%;
@@ -50,15 +51,15 @@ header {
 }
 .button {
   display: block;
-  color: #FFF6EE;
-  font-family: Arial narrow;
+  color: #FCF1E7;
+  font-family: Arial;
   border-radius: 10px;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
   text-align: center;
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
 
 }
 .new-quote {
