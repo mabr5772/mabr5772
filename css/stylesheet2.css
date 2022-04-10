@@ -74,6 +74,16 @@ header {
   color: #666666;
   cursor: not-allowed;
 }
+.twitter {
+  background-color: #1da1f2;
+  text-decoration: none;
+}
+
+.twitter:hover {
+  background-color: #1e7fbb;
+}
+
+
 @media screen and (max-width: 600px) {
   .app {
     width: 100%;
