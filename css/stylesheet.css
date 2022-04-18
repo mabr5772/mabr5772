@@ -1,7 +1,8 @@
 
 @media only screen and (max-width: 400px) {
   body {
-    background-color: transparent;
+    background-color: white;
+    font-family: Helvetica;
 
   }
   h1 {
@@ -18,6 +19,52 @@ text-indent: 25px;
   font-size: 20px;
 
 
+
+}
+.randomize {
+  display: block;
+  color: black;
+  font-family: helvetica;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  width: 60%;
+  font-size: 15px;
+
+}
+.randomize {
+  background-color: tan;
+  margin-bottom: 15px;
+}
+.randomize:hover {
+  background-color: lightblue;
+}
+input[type="text"] {
+  padding: 5px;
+  width: 150px;
+  color: #FF4040;
+  font-family: helvetica;
+  font-weight: bold;
+
+
+}
+label {
+  font-weight: bold;
+
+
+}
+
+div {
+  padding-bottom: 10px;
+}
+
+.story {
+  background: #ECDEC9;
+  color: black;
+  padding: 10px;
+  visibility: hidden;
 
 }
 #hover img {
@@ -136,7 +183,8 @@ display:none;
 
 @media screen and (min-width: 400px) {
   body {
-    background-color: transparent;
+    background-color: white;
+    font-family: helvetica;
   }
 
 .dropdown{
@@ -326,6 +374,51 @@ padding: 0;
 box-sizing: border-box;
 }
 
-body{
-background: #EEE
+
+
+.randomize {
+  display: block;
+  color: black;
+  font-family: helvetica;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  width: 60%;
+  font-size: 15px;
+
+}
+.randomize {
+  background-color: tan;
+  margin-bottom: 15px;
+}
+.randomize:hover {
+  background-color: lightblue;
+}
+input[type="text"] {
+  padding: 5px;
+  width: 150px;
+  color: #FF4040;
+  font-family: helvetica;
+  font-weight: bold;
+
+
+}
+label {
+  font-weight: bold;
+
+
+}
+
+div {
+  padding-bottom: 10px;
+}
+
+.story {
+  background: #ECDEC9;
+  color: black;
+  padding: 10px;
+  visibility: hidden;
+
 }
