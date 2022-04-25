@@ -1,6 +1,6 @@
-// Here is an object that is in a JSON-like format
+// Problem 1
 
-const employees = [
+let employees = [
 
     {
       name: "Sam",
@@ -13,7 +13,7 @@ const employees = [
     },
     {
       name: "Mary",
-      department: Finance,
+      department: "Finance",
       designation: "Trainee",
       salary: 18500,
       raiseEligible: true,
@@ -23,7 +23,7 @@ const employees = [
     {
       name: "Bill",
       department: "HR",
-      designation: Executive,
+      designation: "Executive",
       salary: 21200,
       raiseEligible: false,
 
@@ -33,7 +33,7 @@ const employees = [
 
 console.log('Problem 1', employees)
 
-// Function to add a new superhero -- it's built to be changeable (see the function call below)
+//Problem 2
 const company = {
 companyName: "Tech Stars",
 website: "www.techstars.site",
@@ -42,8 +42,8 @@ employees: employees,
 
 console.log('Problem 2', company);
 
-function addEmployee (employeeName, dept, desig, sal, raiseEligable){
-  const newEmployee = {
+function addEmployee (obj, employeeName, dept, desig, sal, raiseEligable){
+  let newEmployee = {
     name: employeeName,
     department: dept,
     designation: desig,
@@ -51,19 +51,19 @@ function addEmployee (employeeName, dept, desig, sal, raiseEligable){
     raiseEligible: raiseEligable
   };
 
-  employees.push(newEmployee);
+  obj.push(newEmployee);
 }
-addEmployee('Anna', 'Tech', 'Executive', 25600, false);
-console.log('Problem 3', company);
+addEmployee(employees, 'Anna', 'Tech', 'Executive', 25600, false);
+console.log('Problem 3', employees);
 
-let totalSalary = employees(0).salary + employees(1).salary + employees(2).salary + employees(3).salary;
-console.log('Problem 4, totalSalary);
 
-let totalSalaryBetter = 0;
+let totSalary = 0;
 for (let i = 0; i < employees.length; i++) {
-  totalSalaryBetter += employees[i].salary;
+  totalSalary += employees[i].salary;
 }
-console.log('Problem 4', totalSalaryBetter);
+console.log('Problem 4', totSalary;
+
+//problem 5
 
 function doRaises(){
 for (let i = 0; i < employees.length; i++){
@@ -76,6 +76,8 @@ for (let i = 0; i < employees.length; i++){
 doRaises();
 console.log('Problem 5', employees);
 
+
+//problem 6
 const homeWorkers = ['Anna', 'Sam'];
 function setWFH(){
   for(let i=0; i<employees.length; i++){
