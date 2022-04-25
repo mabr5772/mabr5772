@@ -59,9 +59,9 @@ console.log('Problem 3', employees);
 
 let totSalary = 0;
 for (let i = 0; i < employees.length; i++) {
-  totalSalary += employees[i].salary;
+  totSalary += employees[i].salary;
 }
-console.log('Problem 4', totSalary;
+console.log('Problem 4', totSalary);
 
 //problem 5
 
