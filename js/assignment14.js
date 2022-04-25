@@ -42,7 +42,7 @@ employees: employees,
 
 console.log('Problem 2', company);
 
-function addEmployee (employeeName, dept, desig, sal, raiseEligable)
+function addEmployee (employeeName, dept, desig, sal, raiseEligable){
   const newEmployee = {
     name: employeeName,
     department: dept,
