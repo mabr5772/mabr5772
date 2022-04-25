@@ -40,7 +40,7 @@ website: "www.techstars.site",
 employees: employees,
 };
 
-console.log('Problem 2', company)
+console.log('Problem 2', company);
 
 function addEmployee (employeeName, dept, desig, sal, raiseEligable)
   const newEmployee = {
@@ -49,8 +49,8 @@ function addEmployee (employeeName, dept, desig, sal, raiseEligable)
     designation: desig,
     salary: sal,
     raiseEligible: raiseEligable
-
   };
+
   employees.push(newEmployee);
 }
 addEmployee('Anna', 'Tech', 'Executive', 25600, false);
