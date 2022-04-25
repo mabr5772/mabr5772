@@ -61,12 +61,12 @@ console.log('Problem 4, totalSalary);
 
 let totalSalaryBetter = 0;
 for (let i = 0; i < employees.length; i++) {
-  total SalaryBetter += employees[i].salary;
+  totalSalaryBetter += employees[i].salary;
 }
-console.log('Problem 4 Better', totalSalaryBetter);
+console.log('Problem 4', totalSalaryBetter);
 
 function doRaises(){
-  for (let i = 0; i < employees.length; i++){
+for (let i = 0; i < employees.length; i++){
   if (employees[i].raiseEligable){
     employees[i].salary *= 1.1;
     employees[i].raiseEligable = false;
@@ -83,5 +83,5 @@ function setWFH(){
 
   }
 }
-swtWFH();
+setWFH();
 console.log('Problem 6', employees);
