@@ -18,79 +18,9 @@ text-indent: 25px;
   font-family: "futura";
   font-size: 20px;
 
-
-
 }
-.randomize {
-  display: block;
-  color: black;
-  font-family: helvetica;
-  border-radius: 10px;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  text-align: center;
-  width: 60%;
-  font-size: 15px;
-
-}
-.randomize {
-  background-color: tan;
-  margin-bottom: 15px;
-}
-.randomize:hover {
-  background-color: lightblue;
-}
-input[type="text"] {
-  padding: 5px;
-  width: 150px;
-  color: #FF4040;
-  font-family: helvetica;
-  font-weight: bold;
-
-
-}
-label {
-  font-weight: bold;
-
-
-}
-
-div {
-  padding-bottom: 10px;
-}
-
-.story {
-  background: #ECDEC9;
-  color: black;
-  padding: 10px;
-  visibility: hidden;
-
-}
-#hover img {
-  width: 200px;
-   height: 180px;
-
-}
-
-   a.button2 {
+   .navbar {
      display: none;
-
-
-
-
-   }
-   #alert{
-     background-color: #DAD1C2;
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-     color: white;
-     padding: 5px 10px;
-     text-align: center;
-     text-decoration: none;
-     border-radius: 50px;
-     border: none;
-
-     font-size: 11px;
 
    }
 
@@ -149,33 +79,128 @@ p {
   font-family:"avenir";
   font-size: 15px;
 }
-a{
+a {
     text-decoration: none;
-    color: #D39F8A}
-#HomePage {
-  display: flex;
-  flex-flow: wrap-reverse;
-  width: 100%;
-justify-content: center;
-padding-top: 50px;
+    color: #D39F8A
+  }
+
+
+  .angry-grid {
+     display: grid;
+
+     grid-template: 1fr 1fr / 1fr;
+
+     gap: 0px;
+
+
+  }
+
+  #item-1 {
+
+     grid-row: 2 / 3;
+     grid-column: 1 / 2;
+     text-align: center;
+
+  }
+  #item-0 {
+
+     grid-row: 1 / 2;
+     grid-column: 1 / 4;
+  height: 700px;
+     background: url('/Users/mackenziebraun/Documents/GitHub/mabr5772/img/POM2.jpg');
+     background-size: cover;
+
+
+
+  }
+  #slideshow {
+    margin: 80px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+
+  #slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+  .info {
+     display: grid;
+
+     grid-template-rows: 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr;
+
+     gap: 0px;
+     height: 100%;
+
+  }
+
+  #github {
+     grid-row-start: 1;
+     grid-column-start: 1;
+
+     grid-row-end: 2;
+     grid-column-end: 2;
+     text-align: center;
+
+  }
+  #form {
+     grid-row-start: 1;
+     grid-column-start: 2;
+
+     grid-row-end: 2;
+     grid-column-end: 3;
+     text-align: center;
+
+  }
+  #Port {
+
+     grid-row-start: 1;
+     grid-column-start: 3;
+
+     grid-row-end: 2;
+     grid-column-end: 4;
+     text-align: center;
+
+  }
+  #gDescription {
+
+     grid-row-start: 2;
+     grid-column-start: 1;
+
+     grid-row-end: 3;
+     grid-column-end: 2;
+     text-align: center;
+
+  }
+  #fDescription {
+
+     grid-row-start: 2;
+     grid-column-start: 2;
+
+     grid-row-end: 3;
+     grid-column-end: 3;
+     text-align: center;
+
+  }
+  #pDescription {
+
+     grid-row-start: 2;
+     grid-column-start: 3;
+
+     grid-row-end: 3;
+     grid-column-end: 4;
+     text-align: center;
+
+  }
 
 }
-#grid {
-  display: flex;
-  flex-direction: column-reverse;
-  width: 100%;
-  justify-content: center;
-  align-content: center;
 
-
-}
-
-
-
-.verticalLine {
-display:none;
-   }
-}
 
 
 
@@ -228,7 +253,34 @@ p {
     width: 40em
 }
 
+.angry-grid {
+   display: grid;
 
+   grid-template: 1fr 1fr / 1fr;
+
+   gap: 0px;
+
+
+}
+
+#item-1 {
+
+   grid-row: 2 / 3;
+   grid-column: 1 / 2;
+   text-align: center;
+
+}
+#item-0 {
+
+   grid-row: 1 / 2;
+   grid-column: 1 / 4;
+height: 700px;
+   background: url('/Users/mackenziebraun/Documents/GitHub/mabr5772/img/PhotoOfMe.jpg');
+   background-size: cover;
+
+
+
+}
 
 
 a{
@@ -240,45 +292,124 @@ hr {
 }
 dd{
   color: black;
-
-
-
 }
-.grid-container {
-  display: inline-flex;
-  flex-flow: row wrap;
-
-
-}
-.grid-container > div {
-  margin: 6px;
-
-}
-
-a.button2 {
-  background-color: #DAD1C2;
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: white;
-  padding: 5px 10px;
+#myWor{
   text-align: center;
-  text-decoration: none;
-
-  font-size: 17px;
-  transition-duration: 0.4s;
-  text-transform: uppercase;
 }
-#alert{
-  background-color: #DAD1C2;
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: white;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50px;
-  border: none;
 
-  font-size: 17px;
 
+.info {
+   display: grid;
+
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+
+   gap: 0px;
+   height: 100%;
+
+}
+
+#github {
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 2;
+   grid-column-end: 2;
+   text-align: center;
+
+}
+#form {
+   grid-row-start: 1;
+   grid-column-start: 2;
+
+   grid-row-end: 2;
+   grid-column-end: 3;
+      text-align: center;
+
+}
+#Port {
+
+   grid-row-start: 1;
+   grid-column-start: 3;
+
+   grid-row-end: 2;
+   grid-column-end: 4;
+      text-align: center;
+
+}
+#gDescription {
+
+   grid-row-start: 2;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 2;
+      text-align: center;
+
+}
+#fDescription {
+
+   grid-row-start: 2;
+   grid-column-start: 2;
+
+   grid-row-end: 3;
+   grid-column-end: 3;
+   text-align: center;
+
+}
+#pDescription {
+
+   grid-row-start: 2;
+   grid-column-start: 3;
+
+   grid-row-end: 3;
+   grid-column-end: 4;
+text-align: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#333;
+    color: #fff;
+}
+.navlogo{
+    font-size: 1.5rem;
+    margin: .5rem ;
+}
+.navlinks ul{
+    margin: 0px;
+    padding:0px;
+    display: flex;
+}
+.navlinks ul li{
+    list-style: none;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    display: block;
+}
+.navlinks ul li a:hover{
+    background-color: #555;
+}
+.ham{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+.ham .bar{
+    height: 3px;
+    width: 85%;
+    border-radius: 10px;
+    background-color: #fff;
 }
 
 
@@ -290,12 +421,6 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
   }
   .dropdown {
     display: none;
-  }
-  #grid {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 2fr 1fr;
-
   }
 
   #areaA {
@@ -310,32 +435,7 @@ position: relative;
 top: 40%;
 padding-left: 30%;
   }
-  #HomePage {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr;
-    display: flex;
-    flex-flow: row;
-justify-content: center;
-padding-top: 100px;
 
-  }
-
-  #areaC {
-  font-family: "Futura";
-  position: relative;
-
-
-
-  }
-
-  #areaD {
-  position: relative;
-  padding-top: 5%;
-
-
-
-  }
   #contact {
     display: grid;
     width: 100%;
@@ -367,7 +467,7 @@ padding-top: 100px;
   .verticalLine {
        border-left: 3px solid #DAD1C2;
        height: 300px;
-     }}
+     }
      *{
 margin: 0;
 padding: 0;
@@ -375,41 +475,6 @@ box-sizing: border-box;
 }
 
 
-
-.randomize {
-  display: block;
-  color: black;
-  font-family: helvetica;
-  border-radius: 10px;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  text-align: center;
-  width: 60%;
-  font-size: 15px;
-
-}
-.randomize {
-  background-color: tan;
-  margin-bottom: 15px;
-}
-.randomize:hover {
-  background-color: lightblue;
-}
-input[type="text"] {
-  padding: 5px;
-  width: 150px;
-  color: #FF4040;
-  font-family: helvetica;
-  font-weight: bold;
-
-
-}
-label {
-  font-weight: bold;
-
-
-}
 
 div {
   padding-bottom: 10px;
@@ -420,5 +485,7 @@ div {
   color: black;
   padding: 10px;
   visibility: hidden;
+
+}
 
 }
