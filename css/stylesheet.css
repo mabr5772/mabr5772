@@ -7,7 +7,7 @@
 
   }
   h1 {
-    color: #597372;
+  color: #F2F1E4;
     font-family: "futura";
     font-size: 40px;
     text-align: center;
@@ -147,6 +147,7 @@ a {
      grid-template: 1fr 1fr / 1fr;
 
      gap: 0px;
+     background-color: #F2F1E4;
 
 
   }
@@ -322,6 +323,7 @@ h4{
   text-align: center;
 }
 
+/* homepage */
 
 .myHome {
    display: grid;
@@ -356,7 +358,7 @@ height: 700px;
   text-align: center;
 }
 
-
+/* project links */
 .info {
    display: grid;
 
@@ -425,6 +427,8 @@ height: 700px;
    grid-column-end: 4;
 text-align: center;
 }
+
+/* contact info */
 .contacts {
    display: grid;
 
@@ -464,6 +468,7 @@ text-align: center;
    grid-column-end: 4;
       text-align: center;
 
+/* navagation bar */
 }
 
 .navbar{
@@ -497,18 +502,6 @@ text-align: center;
 
 
 
-  .button2:hover {
-    background-color: #F1D7CD;
-  }
-  .button2:active {
-    background-color: #B79182;
-  }
-  .dropdown {
-    display: none;
-  }
-
-
-
   .verticalLine {
        border-left: 3px solid #DAD1C2;
        height: 300px;
@@ -525,6 +518,7 @@ div {
   padding-bottom: 10px;
 }
 
+/* contact form */
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
