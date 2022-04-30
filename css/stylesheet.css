@@ -425,6 +425,46 @@ height: 700px;
    grid-column-end: 4;
 text-align: center;
 }
+.contacts {
+   display: grid;
+
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+
+   gap: 0px;
+   height: 100%;
+
+
+}
+
+#email {
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 2;
+   grid-column-end: 2;
+   text-align: center;
+
+}
+#instagram {
+   grid-row-start: 1;
+   grid-column-start: 2;
+
+   grid-row-end: 2;
+   grid-column-end: 3;
+      text-align: center;
+
+}
+#phone {
+
+   grid-row-start: 1;
+   grid-column-start: 3;
+
+   grid-row-end: 2;
+   grid-column-end: 4;
+      text-align: center;
+
+}
 
 .navbar{
     display: flex;
@@ -466,45 +506,6 @@ text-align: center;
   .dropdown {
     display: none;
   }
-
-  #areaA {
-  display: inline-block;
-font-family: "Futura";
-font-size: 10%;
-
-  }
-
-  #areaB {
-position: relative;
-top: 40%;
-padding-left: 30%;
-  }
-
-  #contact {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr;
-    display: flex;
-flex-flow: row;
-justify-content: center;
-padding-top: 100px;
-
-  }
-
-  #areaE {
-  padding-right: 50px;
-  display: flex;
-  flex-flow:wrap;
-
-
-  }
-
-  #areaF {
-  position: relative;
-  padding-top: 5%;
-  padding-left: 40px;
-
-}
 
 
 
