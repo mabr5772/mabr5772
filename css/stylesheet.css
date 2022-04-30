@@ -1,13 +1,12 @@
 /* Iphone */
 @media only screen and (max-width: 400px) {
   body {
-    background-color: white;
     font-family: Helvetica;
     margin: 0px;
 
   }
   h1 {
-  color: #F2F1E4;
+    color: #597372;
     font-family: "futura";
     font-size: 40px;
     text-align: center;
@@ -147,7 +146,7 @@ a {
      grid-template: 1fr 1fr / 1fr;
 
      gap: 0px;
-     background-color: #F2F1E4;
+     background-color: #F1EFEA;
 
 
   }
