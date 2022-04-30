@@ -1,4 +1,4 @@
-
+/* Iphone */
 @media only screen and (max-width: 400px) {
   body {
     background-color: white;
@@ -52,7 +52,7 @@ a {
    .imgForBox img {
        display: none;
      }
-
+/*contact form */
    input[type=text], select, textarea {
      width: 100%;
      padding: 12px;
@@ -93,6 +93,8 @@ a {
      display: table;
      clear: both;
    }
+
+   /* drop down menu */
    .dropbtn {
   background-color:#73726C ;
   color: white;
@@ -138,7 +140,7 @@ a {
    }
 
 
-
+/* home page */
   .myHome {
      display: grid;
 
@@ -183,14 +185,17 @@ a {
     right: 10px;
     bottom: 10px;
   }
+
   .info {
      display: grid;
 
-     grid-template-rows: 1fr 1fr;
-     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     grid-template-columns: 1fr;
 
      gap: 0px;
      height: 100%;
+     position: relative;
+     top: -80px;
 
   }
 
@@ -198,28 +203,8 @@ a {
      grid-row-start: 1;
      grid-column-start: 1;
 
-     grid-row-end: 2;
-     grid-column-end: 2;
-     text-align: center;
-
-  }
-
-  #form {
-     grid-row-start: 1;
-     grid-column-start: 2;
-
-     grid-row-end: 2;
-     grid-column-end: 3;
-     text-align: center;
-
-  }
-  #Port {
-
-     grid-row-start: 1;
-     grid-column-start: 3;
-
-     grid-row-end: 2;
-     grid-column-end: 4;
+     grid-row-end: 1;
+     grid-column-end: 1;
      text-align: center;
 
   }
@@ -228,28 +213,51 @@ a {
      grid-row-start: 2;
      grid-column-start: 1;
 
-     grid-row-end: 3;
-     grid-column-end: 2;
+     grid-row-end: 2;
+     grid-column-end: 1;
      text-align: center;
+  }
+
+  #form {
+     grid-row-start: 3;
+     grid-column-start: 1;
+
+     grid-row-end: 3;
+     grid-column-end: 1;
+     text-align: center;
+     position:relative;
+     top: -20px;
 
   }
   #fDescription {
 
-     grid-row-start: 2;
-     grid-column-start: 2;
+     grid-row-start: 4;
+     grid-column-start: 1;
 
-     grid-row-end: 3;
-     grid-column-end: 3;
+     grid-row-end: 4;
+     grid-column-end: 1;
+     text-align: center;
+     position:relative;
+     top: -20px;
+  }
+  #Port {
+
+     grid-row-start: 5;
+     grid-column-start: 1;
+
+     grid-row-end: 5;
+     grid-column-end: 1;
      text-align: center;
 
   }
+
   #pDescription {
 
-     grid-row-start: 2;
-     grid-column-start: 3;
+     grid-row-start: 6;
+     grid-column-start: 1;
 
-     grid-row-end: 3;
-     grid-column-end: 4;
+     grid-row-end: 6;
+     grid-column-end: 1;
      text-align: center;
 
   }
