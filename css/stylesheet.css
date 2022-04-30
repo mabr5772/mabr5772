@@ -333,7 +333,7 @@ h4{
    grid-row: 1 / 2;
    grid-column: 1 / 4;
 height: 700px;
-   background-image: url("img/photoOfme.jpg");
+   background-image: url("img/PhotoOfMe.jpg");
    background-size: cover;
 
 }
