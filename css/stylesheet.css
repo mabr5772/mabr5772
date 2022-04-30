@@ -333,7 +333,7 @@ h4{
    grid-row: 1 / 2;
    grid-column: 1 / 4;
 height: 700px;
-   background: url('/Users/mackenziebraun/Documents/GitHub/mabr5772/img/PicMe.jpg');
+   background-image: url("img/photoOfme.jpg");
    background-size: cover;
 
 }
