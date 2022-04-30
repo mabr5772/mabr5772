@@ -77,6 +77,7 @@ a {
    .container {
      border-radius: 5px;
      padding: 15px;
+    color: #A69F98;
    }
 
    .column {
@@ -167,7 +168,7 @@ a {
      background: url('smallPic.jpg');
      background-size: cover;
 
-
+/* project images */
 
   }
   #slideshow {
@@ -185,7 +186,7 @@ a {
     right: 10px;
     bottom: 10px;
   }
-
+/* project links */
   .info {
      display: grid;
 
@@ -263,7 +264,6 @@ a {
   }
 
 }
-
 
 
 @media screen and (min-width: 400px) {
@@ -533,6 +533,7 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+
 }
 
 input[type=submit]:hover {
@@ -542,6 +543,7 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   padding: 10px;
+  color: #A69F98;
 }
 
 .column {
